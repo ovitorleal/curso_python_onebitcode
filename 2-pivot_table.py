@@ -4,7 +4,7 @@ import pandas as pd
 data = pd.read_excel ("data/VendaCarros.xlsx")
 # print(type(data))
 
-#2- selecionar colunas especificas do dataframe
+#2- selecionar colunas especificas do dataframe (df)
 df = data[["Fabricante", "ValorVenda","Ano"]]
 print (df)
 
